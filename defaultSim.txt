@@ -1,0 +1,33 @@
+Here is the default settings for the simulation. This file is loaded when then application is ran.
+
+You can use this file as an example if you wish to alter, save or load a set of simulation settings.
+There are four information types, each information needs to be on its own line. For the programme to be
+able to read each information line, they must start with one of the following: POP, RUL, SPE or BOI.
+
+Each of these information types that are POP, RUL, SPE or BOI contain information of the population,
+a behaviour rule (there are 4 rules), simulation speed or a single boid, respectively.
+
+Any line that doesn't start with these prefixes are ignored by the programme.
+Whitespace is allowed everywhere, but each information type needs to contain all of its information on its one line.
+Here are the formats for the information types, inputs are given where the parenthesis are:
+
+# POP (population amount as an integer)
+# RUL (name of the rule: Separation, Cohesion, Alignment or Randomization) ; (weight as an integer) ; (enabled as 1 or 0)
+# SPE (simulation speed as a number with one decimal within the range of 0.1 and 20.0)
+
+(you don't need to give any boids their starting position, they are randomized by default
+ if you do give some boids initial values, the rest of the population are randomized)
+a BOI-piece contains a boids inital xy-position and its direction as a 2d-vector
+
+# BOI (x-position as a float), (y-position as a float) ; (x-vector as a float), (y-vector as a float)
+
+
+here are the parameters for the default sim:
+
+POP 231
+RUL Separation; 29; 1
+RUL Cohesion; 34; 1
+RUL Alignment; 37; 1
+RUL Randomization; 53; 1
+SPE 2.3
+BOI 928.85126,78.23431;-3.0450428,0.5811317

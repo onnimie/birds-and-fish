@@ -1,0 +1,8 @@
+[debug] > Exec(stop, None, None)
+[error] Not a valid command: stop (similar: set, last, shutdown)
+[error] Not a valid project ID: stop
+[error] Expected ':'
+[error] Not a valid key: stop (similar: bgStop, test, history)
+[error] stop
+[error]     ^
+[debug] > Exec(idea-shell, None, None)

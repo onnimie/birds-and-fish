@@ -1,0 +1,7 @@
+2022.02.09 12:30:33 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\onni\Documents\scalacode\boids-os2\.metals\lsp.trace.json or C:\Users\onni\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.09 12:30:34 INFO  logging to file C:\Users\onni\Documents\scalacode\boids-os2\.metals\metals.log
+2022.02.09 12:30:34 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\onni\Documents\scalacode\boids-os2' for client Visual Studio Code 1.64.0.
+2022.02.09 12:30:34 INFO  Parse release: 1.8.0_301
+2022.02.09 12:30:34 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(1,8)), jdkHome: C:\Program Files\Java\jre1.8.0_301, javac exists: false)
+2022.02.09 12:30:34 INFO  time: initialize in 0.29s
+2022.02.09 12:30:34 WARN  Build server is not auto-connectable.
